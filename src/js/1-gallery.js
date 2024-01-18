@@ -3,7 +3,6 @@ import SimpleLightbox from "simplelightbox";
 // Додатковий імпорт стилів
 import "simplelightbox/dist/simple-lightbox.min.css";
 
-
 document.addEventListener('DOMContentLoaded', function () {
     const gallery = document.querySelector('.gallery');
 
@@ -90,6 +89,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const lightbox = new SimpleLightbox('.gallery a', {
         captionsData: 'alt',
-        captionDelay: 250,
+        captionDelay: 2500,
     });
 });
